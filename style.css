@@ -1,50 +1,16 @@
-
-.container-fluid {
-    margin: 0;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-
-}
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
-body{
-   min-width: none;
-   font-family: 'Roboto Condensed', sans-serif;
+body {
+    font-family: 'Roboto Condensed', sans-serif;
     
-    
+
 }
-
-
-h2 {
-    color: #888;
-}
-
 .btn {
-    display: inline-block;
-    color: rgb(51, 51, 51);
     padding: 0.5rem 2rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(204, 204, 204);
-    border-image: initial;
-    margin: 2rem 0px 0px;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
     border-radius: 50px;
     text-decoration: none;
-    transition: background 500ms ease 0s;
+    color: #333;
+    transition: background 500ms ease;
 }
 
-#header {
-    padding: 1.5rem;
-    text-align: center;
-    background: #333;
-    color: #fff;
-}
-footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    margin: auto;
-    color: #333;
-}
